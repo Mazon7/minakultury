@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet" />
+    <link
+      href="css\about.css"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+    <title>Контакты</title>
+  </head>
+
+  <body>
+    <!-- Page Content -->
+    <div class="container">
+      <!-- Page Heading/Breadcrumbs -->
+      <h1 class="mt-4 mb-3">Контакты</h1>
+
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="index.html">Главная</a>
+        </li>
+        <li class="breadcrumb-item active">Контакты</li>
+      </ol>
+
+      <!-- Content Row -->
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <h3>Реквизиты</h3>
+          <p>
+            Автономная некоммерческая организация Творческое Кинообъединение «МинАкультуры»
+            <br/><br />
+            г. Москва, 105005
+            <br />ул. Бауманская, д. 7 стр.1, антр. 2, </br>пом. 1, ком. 17, оф. В9Ю<br />
+            ИНН/ КПП  - 7701109947/770101001<br />ОГРН - 1147799011150<br /><br />
+            Совместно с ООО «МИНАКУЛЬТУРЫ»<br />
+            115191, Москва, ул. Рощинская 2-я, д. 4,<br />пом.1, ком.8, оф.188А
+          </p>
+          <p>Телефон: +7(916)606-09-60</p>
+          <p>
+            <p>Email:
+              <a href="mailto:info@minakultury.ru">info@minakultury.ru</a>
+            </p>
+          </p>
+        </div>
+        <div class="col-lg-8 mb-4">
+          <h3>Связаться с нами</h3>
+          <form name="sentMessage" id="contactForm" novalidate>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Полное имя:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  required
+                  data-validation-required-message="Пожалуйста введите своё имя."
+                />
+                <p class="help-block"></p>
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Телефон:</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  required
+                  data-validation-required-message="Пожалуйста введите свой тел. номер."
+                />
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Email:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  required
+                  data-validation-required-message="Пожалуйста введите свой email."
+                />
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Сообщение:</label>
+                <textarea
+                  rows="10"
+                  cols="100"
+                  class="form-control"
+                  id="message"
+                  required
+                  data-validation-required-message="Пожалуйста введите своё сообщение."
+                  maxlength="999"
+                  style="resize: none"
+                ></textarea>
+              </div>
+            </div>
+            <div id="success"></div>
+            <!-- For success/fail messages -->
+            <button
+              type="submit"
+              class="btn btn-primary"
+              id="sendMessageButton"
+            >
+              Отправить сообщение
+            </button>
+          </form>
+        </div>
+        <!-- Contact Details Column -->
+      </div>
+      <!-- Contact Form -->
+      <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+      <div class="row"></div>
+      <!-- /.row -->
+    </div>
+    <!-- Footer -->
+    <footer>
+      <b class="text-black">
+        2020 Кинокомпания <cite title="Source Title">МинАкультуры</cite>
+      </b>
+      <div class="icon-bar">
+        <h5>Мы в мессенджерах и соц. сетях</h5>
+        <a
+        href="https://wa.me/+79165333595"
+        target="_blank"
+        class="fa fa-whatsapp"
+      ></a>
+        <a
+          href="https://www.facebook.com/bezvestipropavshievAfganistane/"
+          target="_blank"
+          class="fa fa-facebook"
+        ></a>
+        <a
+          href="https://m.ok.ru/dk?st.cmd=altGroupMain&st.groupId=56419953475766"
+          target="_blank"
+          class="fa fa-odnoklassniki"
+        ></a>
+        <a
+          href="https://www.youtube.com/playlist?list=PLDJpLSzn9m6lZkHrPI1DXsCleyoZ37j6M"
+          target="_blank"
+          class="fa fa-youtube"
+        ></a>
+        <a href="https://zen.yandex.ru/evgenii_barkhanov" target="_blank">
+          <img
+            src="материалы/14_oooo.plus.png"
+            class="dzen"
+          />
+        </a>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+.headers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h5 {
+  margin: 10px 0 10px 0;
+}
+
+.headers p {
+  font-size: 20px;
+  font-weight: 500;
+}
